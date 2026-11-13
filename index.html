@@ -109,7 +109,7 @@
 
   <header>
     <h1>Politique de confidentialité de Super Dictée</h1>
-    <p class="maj">Dernière mise à jour : 29 août 2026</p>
+    <p class="maj">Dernière mise à jour : 13 novembre 2026</p>
   </header>
 
   <p>
@@ -123,10 +123,12 @@
     <strong>En résumé :</strong> Super Dictée ne demande pas de compte et ne collecte pas
     d'e-mail. La quasi-totalité de vos données (votre progression, vos scores, vos réglages,
     votre historique) reste uniquement sur votre téléphone. Seules deux choses sortent de
-    l'appareil : le texte que vous collez volontairement pour créer une dictée sur mesure
-    (envoyé à un service de fabrication), et les informations nécessaires au traitement
-    de votre abonnement (gérées par Apple et RevenueCat). Il n'y a aucune publicité et
-    aucun outil de suivi publicitaire dans l'application.
+    l'appareil, plus une troisième si vous l'acceptez : le texte que vous collez
+    volontairement pour créer une dictée sur mesure (envoyé à un service de fabrication),
+    les informations nécessaires au traitement de votre abonnement (gérées par Apple et
+    RevenueCat), et, <strong>seulement si vous dites oui</strong>, des statistiques
+    d'utilisation anonymes (confiées à PostHog, sur des serveurs en Europe). Il n'y a
+    aucune publicité et aucun outil de suivi publicitaire dans l'application.
   </div>
 
   <h2>1. Qui est responsable de ce traitement</h2>
@@ -252,7 +254,51 @@
     </li>
   </ul>
 
-  <h2>5. Les notifications</h2>
+  <h2>5. Les statistiques d'utilisation (avec votre accord)</h2>
+  <p>
+    Au premier lancement, juste après « Commencer », l'application vous demande si vous
+    acceptez de nous aider à l'améliorer. <strong>Si vous répondez « Non merci », rien
+    n'est mesuré.</strong> Rien n'est envoyé non plus avant votre réponse. Vous pouvez
+    changer d'avis à tout moment dans les Réglages, à la ligne « Aider à améliorer
+    l'appli ».
+  </p>
+  <ul>
+    <li>
+      <strong>Pourquoi :</strong> savoir quels écrans servent, quels jeux plaisent et à
+      quel moment on abandonne, pour corriger ce qui ne fonctionne pas.
+    </li>
+    <li>
+      <strong>Ce qui est envoyé :</strong> les écrans visités (leur nom seulement), la fin
+      d'une partie (le jeu, la dictée, la note obtenue), la note de la dictée d'essai, la
+      fin du questionnaire de bienvenue, l'abandon d'une dictée, l'ouverture de l'offre
+      d'abonnement et l'issue d'un achat (réussi, annulé ou échoué, sans aucune donnée de
+      paiement), l'activation ou non des rappels. S'y ajoutent les informations techniques
+      habituelles : modèle de téléphone, version du système et de l'application, langue,
+      fuseau horaire.
+    </li>
+    <li>
+      <strong>Ce qui n'est jamais envoyé :</strong> votre prénom, ce que vous écrivez dans
+      les dictées, le texte des dictées que vous créez, ni aucune adresse e-mail ou numéro
+      de téléphone.
+    </li>
+    <li>
+      <strong>Un identifiant anonyme :</strong> pour relier entre elles les mesures d'un
+      même appareil, un identifiant tiré au hasard est créé sur votre téléphone. Il n'est
+      lié ni à votre nom, ni à votre compte Apple.
+    </li>
+    <li>
+      <strong>À qui :</strong> à <strong>PostHog</strong>, un service de statistiques
+      d'utilisation, sur ses serveurs situés dans l'Union européenne. Comme pour toute
+      connexion à Internet, PostHog reçoit techniquement l'adresse IP de l'appareil ; il en
+      déduit le pays et la ville approximative, et ne conserve pas l'adresse IP elle-même.
+    </li>
+    <li>
+      <strong>Base légale :</strong> votre consentement (article 6.1.a du RGPD), conformément
+      aux recommandations de la CNIL. Le retirer est aussi simple que de le donner.
+    </li>
+  </ul>
+
+  <h2>6. Les notifications</h2>
   <p>
     Si vous les activez, les rappels quotidiens sont programmés
     <strong>entièrement sur votre téléphone</strong>, grâce aux outils fournis par le
@@ -260,18 +306,18 @@
     votre téléphone, ni votre identifiant, ni le contenu du rappel ne quittent l'appareil.
   </p>
 
-  <h2>6. Ce que Super Dictée ne fait pas</h2>
+  <h2>7. Ce que Super Dictée ne fait pas</h2>
   <ul>
     <li>Pas de création de compte, pas d'adresse e-mail demandée pour utiliser l'application</li>
     <li>Pas de publicité, et donc aucun outil de mesure publicitaire ou de ciblage</li>
-    <li>Pas d'outil d'analyse de comportement ou de mesure d'audience (pas de Google
-    Analytics, Firebase, Amplitude ou équivalent)</li>
+    <li>Pas de mesure d'audience sans votre accord, et aucun outil publicitaire (pas de
+    Google Analytics, de Firebase ni de réseau publicitaire)</li>
     <li>Pas de revente ni de partage de données à des fins commerciales</li>
-    <li>Pas de géolocalisation</li>
+    <li>Pas de géolocalisation par GPS</li>
     <li>Pas d'accès à vos contacts, votre appareil photo ou votre microphone</li>
   </ul>
 
-  <h2>7. Durée de conservation</h2>
+  <h2>8. Durée de conservation</h2>
   <ul>
     <li>
       <strong>Sur votre téléphone :</strong> vos données y restent tant que vous n'avez pas
@@ -284,13 +330,18 @@
       données de notre côté.
     </li>
     <li>
+      <strong>Côté statistiques :</strong> si vous les avez acceptées, PostHog conserve
+      ces mesures anonymes selon la durée prévue par notre offre auprès de ce service. Elles
+      ne servent qu'à améliorer l'application.
+    </li>
+    <li>
       <strong>Côté abonnement :</strong> RevenueCat et Apple conservent les informations
       nécessaires à la gestion de votre abonnement selon leurs propres durées de
       conservation.
     </li>
   </ul>
 
-  <h2>8. Vos droits</h2>
+  <h2>9. Vos droits</h2>
   <p>
     Conformément au Règlement général sur la protection des données (RGPD), vous disposez
     d'un droit d'accès, de rectification et d'effacement de vos données.
@@ -306,16 +357,28 @@
       à votre abonnement, ou pour toute autre demande relative à vos données, écrivez à
       <a href="mailto:support@superdictee.fr">support@superdictee.fr</a>.
     </li>
+    <li>
+      Pour les statistiques d'utilisation : vous pouvez retirer votre accord à tout moment
+      dans les Réglages (« Aider à améliorer l'appli »). Plus rien n'est envoyé dès cet
+      instant. Les mesures déjà envoyées ne portent ni votre nom ni votre e-mail : nous ne
+      pouvons pas les retrouver à partir de votre identité, et elles ne sont plus reliées à
+      rien une fois l'application désinstallée.
+    </li>
+    <li>
+      Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une
+      réclamation à la CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>).
+    </li>
   </ul>
 
-  <h2>9. Sécurité</h2>
+  <h2>10. Sécurité</h2>
   <p>
     Les données conservées sur votre téléphone le sont dans l'espace de stockage propre à
     l'application, protégé par le système d'exploitation de votre appareil. Les échanges
-    avec le service de création de dictées se font de façon chiffrée (HTTPS).
+    avec le service de création de dictées et avec PostHog se font de façon chiffrée
+    (HTTPS).
   </p>
 
-  <h2>10. Modifications de cette politique</h2>
+  <h2>11. Modifications de cette politique</h2>
   <p>
     Cette politique peut être mise à jour si l'application évolue. La date de dernière
     mise à jour est indiquée en haut de cette page.
